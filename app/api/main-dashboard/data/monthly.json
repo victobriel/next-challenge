@@ -1,0 +1,445 @@
+{
+    "mainDashboard": {
+        "period": "monthly",
+        "startDate": "Jan 2024",
+        "endDate": "May 2025",
+        "metricDate": "Feb 2023",
+        "dateArray": [
+            "Jan 2024",
+            "Feb 2024",
+            "Mar 2024",
+            "Apr 2024",
+            "May 2024",
+            "Jun 2024",
+            "Jul 2024",
+            "Aug 2024",
+            "Sep 2024",
+            "Oct 2024",
+            "Nov 2024",
+            "Dec 2024",
+            "Jan 2025",
+            "Feb 2025",
+            "Mar 2025",
+            "Apr 2025",
+            "May 2025"
+        ],
+        "charts": {
+            "cashAtBank": [
+                {
+                    "chartType": "line",
+                    "name": "Cash",
+                    "values": [
+                        118366,
+                        3451699,
+                        3452476,
+                        3469198,
+                        3472197,
+                        3472197,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        3472530,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Checking",
+                    "values": [
+                        2496,
+                        2496,
+                        2496,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        2385,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Savings",
+                    "values": [
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        800,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Other Current Assets",
+                    "values": [
+                        2897.77,
+                        2897.77,
+                        2897.77,
+                        2897.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        2397.77,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Fixed Assets",
+                    "values": [
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        13495,
+                        0
+                    ]
+                }
+            ],
+            "expenseSplit": [
+                {
+                    "chartType": "donut",
+                    "name": "Automobile",
+                    "values": 73.98
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Fuel",
+                    "values": 115.71
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Job Expenses",
+                    "values": 46.98
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Decks and Patios",
+                    "values": 42.4
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Plants and Soil",
+                    "values": 23.5
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Legal & Professional Fees",
+                    "values": 75
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Accounting",
+                    "values": 315
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Meals and Entertainment",
+                    "values": 18.97
+                }
+            ],
+            "indirectCashflow": [
+                {
+                    "name": "Operations",
+                    "values": [
+                        20000,
+                        3333333,
+                        777,
+                        16611,
+                        2999,
+                        0,
+                        333,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "chartType": "bar"
+                },
+                {
+                    "name": "Investment",
+                    "values": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "chartType": "bar"
+                },
+                null
+            ],
+            "totalRevenuesSplit": [
+                {
+                    "chartType": "pie",
+                    "name": "Design income",
+                    "values": 262.5
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Landscaping Services",
+                    "values": 117.5
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Fountains and Garden Lighting",
+                    "values": 412.5
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Plants and Soil",
+                    "values": 100
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Sales of Product Income",
+                    "values": 868.75
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Uncategorized Income",
+                    "values": 200
+                }
+            ],
+            "profitLossOverview": [
+                {
+                    "chartType": "columnStacked",
+                    "name": "Expenses",
+                    "values": [
+                        0,
+                        0,
+                        -1000,
+                        9667,
+                        7209,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "columnStacked",
+                    "name": "Cost of Sales",
+                    "values": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        -500,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "columnStacked",
+                    "name": "Revenues",
+                    "values": [
+                        20000,
+                        3333333,
+                        1002,
+                        6944,
+                        -6084,
+                        0,
+                        333,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Net Income/(Loss)",
+                    "values": [
+                        20000,
+                        3333333,
+                        2,
+                        16611,
+                        625,
+                        0,
+                        333,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "columnStacked",
+                    "name": "Net Other Income",
+                    "values": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "salariesSplit": [],
+            "ManpowerOperatingExpenses": []
+        }
+    },
+    "mainDashboardKPIs": {
+        "topKPIs": [
+            {
+                "name": "Cash at bank",
+                "value": 19394.77,
+                "date": "Feb 2023",
+                "mOm": 5.679344524197556
+            },
+            {
+                "name": "Burn rate",
+                "value": -121.45000000000005,
+                "date": "Feb 2023",
+                "type": "specificMonth"
+            },
+            {
+                "name": "Runway",
+                "value": 159.6934540963359
+            },
+            {
+                "name": "Cash from operations",
+                "value": -121.45000000000005,
+                "mOm": -104.31997325138012
+            }
+        ],
+        "KPIs": [
+            {
+                "name": "Revenues",
+                "value": 1961.25,
+                "mom": -70.21762205649881,
+                "prefix": "MoM"
+            },
+            {
+                "name": "Cost of Sales",
+                "value": 405,
+                "mom": 100,
+                "prefix": "MoM"
+            },
+            {
+                "name": "Gross Profit",
+                "value": 1556.25,
+                "mom": -76.36771157446847,
+                "prefix": "MoM"
+            },
+            {
+                "name": "Expenses",
+                "value": 711.54,
+                "mom": -78.47737907628833,
+                "prefix": "MoM"
+            },
+            {
+                "name": "Net Income/(Loss)",
+                "value": 844.71,
+                "mom": 37.740925545445705,
+                "prefix": "MoM"
+            }
+        ]
+    }
+}

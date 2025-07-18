@@ -1,0 +1,370 @@
+{
+    "mainDashboard": {
+        "period": "yearly",
+        "startDate": "2024",
+        "endDate": "2025",
+        "metricDate": "Feb 2023",
+        "dateArray": [
+            "2024",
+            "2025"
+        ],
+        "charts": {
+            "cashAtBank": [
+                {
+                    "chartType": "line",
+                    "name": "Cash",
+                    "values": [
+                        3472530,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Checking",
+                    "values": [
+                        2385,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Savings",
+                    "values": [
+                        800,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Other Current Assets",
+                    "values": [
+                        2397.77,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Fixed Assets",
+                    "values": [
+                        13495,
+                        0
+                    ]
+                }
+            ],
+            "expenseSplit": [
+                {
+                    "chartType": "donut",
+                    "name": "Advertising",
+                    "values": 74.86
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Automobile",
+                    "values": 113.96000000000001
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Fuel",
+                    "values": 232.85
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Contractor",
+                    "values": 750
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Equipment Rental",
+                    "values": 112
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Installation",
+                    "values": -1667
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Insurance",
+                    "values": 241.23
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Job Expenses",
+                    "values": 46.98
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Decks and Patios",
+                    "values": 234.04
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Plants and Soil",
+                    "values": 105.95
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Sprinklers and Drip Systems",
+                    "values": 215.66
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Legal & Professional Fees",
+                    "values": 75
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Accounting",
+                    "values": 390
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Lawyer",
+                    "values": 100
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Maintenance and Repair",
+                    "values": 185
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Equipment Repairs",
+                    "values": 755
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Meals and Entertainment",
+                    "values": 28.49
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Office Expenses",
+                    "values": 18.08
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Plants and Soil",
+                    "values": -40000
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Rent or Lease",
+                    "values": 900
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Unapplied Cash Bill Payment Expense",
+                    "values": -3566
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Gas and Electric",
+                    "values": 114.09
+                },
+                {
+                    "chartType": "donut",
+                    "name": "Telephone",
+                    "values": 74.36
+                }
+            ],
+            "indirectCashflow": [
+                {
+                    "name": "Operations",
+                    "values": [
+                        3374053,
+                        0
+                    ],
+                    "chartType": "bar"
+                },
+                {
+                    "name": "Investment",
+                    "values": [
+                        0,
+                        0
+                    ],
+                    "chartType": "bar"
+                },
+                null
+            ],
+            "totalRevenuesSplit": [
+                {
+                    "chartType": "pie",
+                    "name": "Design income",
+                    "values": 99828
+                },
+                {
+                    "chartType": "pie",
+                    "name": "BLABLA (deleted)",
+                    "values": 23332
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Discounts given",
+                    "values": -89.5
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Fountains and Garden Lighting",
+                    "values": 10000
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Landscaping Services",
+                    "values": 10797.5
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Fountains and Garden Lighting",
+                    "values": 1501.5
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Plants and Soil",
+                    "values": 2220.72
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Sprinklers and Drip Systems",
+                    "values": 30
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Installation",
+                    "values": 250
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Pest Control Services",
+                    "values": -30
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Sales of Product Income",
+                    "values": 912.75
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Services",
+                    "values": 503.55
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Small business income",
+                    "values": 112569
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Unapplied Cash Payment Income",
+                    "values": -99724
+                },
+                {
+                    "chartType": "pie",
+                    "name": "Uncategorized Income",
+                    "values": 255
+                }
+            ],
+            "profitLossOverview": [
+                {
+                    "chartType": "columnStacked",
+                    "name": "Expenses",
+                    "values": [
+                        15876,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "columnStacked",
+                    "name": "Cost of Sales",
+                    "values": [
+                        -500,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "columnStacked",
+                    "name": "Revenues",
+                    "values": [
+                        3355528,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "line",
+                    "name": "Net Income/(Loss)",
+                    "values": [
+                        3370904,
+                        0
+                    ]
+                },
+                {
+                    "chartType": "columnStacked",
+                    "name": "Net Other Income",
+                    "values": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "salariesSplit": [],
+            "ManpowerOperatingExpenses": []
+        }
+    },
+    "mainDashboardKPIs": {
+        "topKPIs": [
+            {
+                "name": "Cash at bank",
+                "value": 19394.77,
+                "date": "Feb 2023",
+                "mOm": 5.679344524197556
+            },
+            {
+                "name": "Burn rate",
+                "value": -121.45000000000005,
+                "date": "Feb 2023",
+                "type": "specificMonth"
+            },
+            {
+                "name": "Runway",
+                "value": 159.6934540963359
+            },
+            {
+                "name": "Cash from operations",
+                "value": -121.45000000000005,
+                "mOm": -104.31997325138012
+            }
+        ],
+        "KPIs": [
+            {
+                "name": "Revenues",
+                "value": 162356.52000000002,
+                "mom": 8298.113022113022,
+                "prefix": "YoY"
+            },
+            {
+                "name": "Cost of Sales",
+                "value": 100277,
+                "mom": 100,
+                "prefix": "YoY"
+            },
+            {
+                "name": "Gross Profit",
+                "value": 62079.52000000002,
+                "mom": 3111.1480667270152,
+                "prefix": "YoY"
+            },
+            {
+                "name": "Expenses",
+                "value": -40465.45,
+                "mom": -3495.4361616432843,
+                "prefix": "YoY"
+            },
+            {
+                "name": "Net Income/(Loss)",
+                "value": 99878.97000000002,
+                "mom": 19542.268284528705,
+                "prefix": "YoY"
+            }
+        ]
+    }
+}
