@@ -3,16 +3,22 @@
 import { DashboardPeriod } from "@/lib/types";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../ui/select"
 import { useDispatch, useSelector } from "react-redux";
-import { getDashboardPeriod, setDashboardPeriod } from "@/redux/dashboard-period/slice";
+import { fetchDashboardData, getDashboardPeriod, setDashboardPeriod } from "@/redux/dashboard-period/slice";
+import { AppDispatch } from "@/redux/store";
 
 export const DashboardPeriodSelect = () => {
-	const dispatch = useDispatch();
+	const dispatch = useDispatch<AppDispatch>();
 	const dashboardPeriod = useSelector(getDashboardPeriod)
 
 	const periods: DashboardPeriod[] = ["monthly", "quarterly", "yearly"];
 
+	const handlePeriodChange = (value: DashboardPeriod) => {
+		dispatch(setDashboardPeriod(value));
+		dispatch(fetchDashboardData(value));
+	};
+
 	return (
-		<Select value={dashboardPeriod} onValueChange={(value) => { dispatch(setDashboardPeriod(value)) }}>
+		<Select value={dashboardPeriod} onValueChange={handlePeriodChange}>
 			<SelectTrigger>
 				<SelectValue placeholder="Select Period" />
 			</SelectTrigger>

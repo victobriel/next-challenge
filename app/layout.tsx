@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import { MainSidebar } from "./components/MainSidebar";
-import StoreProvider from "./StoreProvider";
+import Providers from "./Providers";
 
 const geistRoboto = Roboto({
   variable: "--font-roboto",
@@ -24,12 +24,12 @@ export default function RootLayout({
       <body
         className={`${geistRoboto.variable} antialiased bg-background`}
       >
-        <StoreProvider>
+        <Providers>
         <div className="flex">
           <MainSidebar />
           <main className="flex-1">{children}</main>
         </div>
-        </StoreProvider>
+        </Providers>
       </body>
     </html>
   );
