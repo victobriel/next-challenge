@@ -73,13 +73,17 @@ export default function DashboardPage() {
 					<p className="text-sm text-center">Period: {data?.mainDashboard.startDate} - {data?.mainDashboard.endDate}</p>
 					<div className="flex items-center gap-2 text-sm">
 						<Calendar className="size-4"/>
-						<span>Last updated: {data?.mainDashboard.metricDate}</span>
+						<span>Last updated: {data?.mainDashboard.endDate}</span>
 					</div>
 				</div>
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 					{data.mainDashboardKPIs.topKPIs.map((kpi) => (
 						<KPICard key={kpi.name} kpi={kpi} isTopKpi /> 
 					))}
+					{data.mainDashboardKPIs.KPIs.map((kpi) => (
+							<KPICard key={kpi.name} kpi={kpi} />
+						))
+					}
 				</div>
 				<div className="grid grid-cols-1 gap-4">
 					{/* Cash At Bank */} {/* OK */}
