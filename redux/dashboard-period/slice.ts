@@ -1,8 +1,8 @@
-import { DashboardData, DashboardPeriod } from "@/lib/types";
+import { DashboardData, Period } from "@/lib/types";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 interface DashboardPeriodState {
-	period: DashboardPeriod;
+	period: Period;
 	data: DashboardData | null;
 	loading: boolean;
 	error: string | null;
@@ -17,7 +17,7 @@ const initialState: DashboardPeriodState = {
 
 export const fetchDashboardData = createAsyncThunk(
 	'dashboardPeriod/fetchDashboardData',
-	async (period: DashboardPeriod, { rejectWithValue }) => {
+	async (period: Period, { rejectWithValue }) => {
 		const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 		try {

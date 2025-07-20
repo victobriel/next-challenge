@@ -1,16 +1,21 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx, type ClassValue } from 'clsx';
+import { twMerge } from 'tailwind-merge';
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 interface formatCurrencyParams {
-    minimumFractionDigits?: number;
-    maximumFractionDigits?: number;
+  minimumFractionDigits?: number;
+  maximumFractionDigits?: number;
 }
 
-export const formatCurrency = (value: number, { minimumFractionDigits = 0, maximumFractionDigits = 0 }: formatCurrencyParams = {}
+export const formatCurrency = (
+  value: number,
+  {
+    minimumFractionDigits = 0,
+    maximumFractionDigits = 0,
+  }: formatCurrencyParams = {}
 ) => {
   return new Intl.NumberFormat('en-US', {
     signDisplay: 'never',
@@ -19,4 +24,16 @@ export const formatCurrency = (value: number, { minimumFractionDigits = 0, maxim
     minimumFractionDigits,
     maximumFractionDigits,
   }).format(value);
-}
+};
+
+export const formatNumber = (value: number): string => {
+  return new Intl.NumberFormat('en-US').format(value);
+};
+
+export const formatPercentage = (value: number): string => {
+  return `${(value * 100).toFixed(1)}%`;
+};
+
+export const sumArray = (arr: number[]): number => {
+  return arr.reduce((acc, val) => acc + val, 0);
+};
