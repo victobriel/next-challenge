@@ -6,12 +6,12 @@ import { ChevronDown, ChevronRight, Eye, EyeOff } from 'lucide-react';
 import { formatCurrency } from '@/lib/utils';
 import { getReportPeriod } from '@/redux/report-period/slice';
 import { FinanceMovement } from '@/lib/types';
-import { createDataStrategy } from '@/app/report/reports/utils/data-strategies';
+import { createDataStrategy } from '@/lib/report/utils/data-strategies';
 import {
   getBgColor,
   getTextColor,
   getTypeLabel,
-} from '@/app/report/reports/utils/report-utils';
+} from '@/lib/report/utils/report-utils';
 
 interface ReportTableProps {
   report: {

@@ -25,15 +25,3 @@ export const formatCurrency = (
     maximumFractionDigits,
   }).format(value);
 };
-
-export const formatNumber = (value: number): string => {
-  return new Intl.NumberFormat('en-US').format(value);
-};
-
-export const formatPercentage = (value: number): string => {
-  return `${(value * 100).toFixed(1)}%`;
-};
-
-export const sumArray = (arr: number[]): number => {
-  return arr.reduce((acc, val) => acc + val, 0);
-};

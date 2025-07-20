@@ -6,11 +6,11 @@ import { BarChart3, DollarSign, TrendingDown, TrendingUp } from 'lucide-react';
 
 import { formatCurrency } from '@/lib/utils';
 import { getReportPeriod } from '@/redux/report-period/slice';
+import { FinanceMovement } from '@/lib/types';
 import {
   calculateTotalByIndex,
   getTextColor,
-} from '@/app/report/reports/utils/report-utils';
-import { FinanceMovement } from '@/lib/types';
+} from '@/lib/report/utils/report-utils';
 
 interface ReportSummaryCardsProps {
   report: {
